@@ -1,0 +1,40 @@
+// Font Family
+$font-family: (
+	font-poppins: "'Poppins', sans-serif",
+	font-montserrat: "'Montserrat', sans-serif",
+);
+
+$font-poppins: var(--font-poppins);
+$font-montserrat: var(--font-montserrat);
+
+// Color
+$colors: (
+	color-red: #DA0037,
+	color-black: #000,
+	color-dark-black: #03031C,
+	color-dark-black-2: #040528,
+	color-white: #fff,
+	color-off-white: #F2F4F6,
+	color-gray: #C0C0C0,
+	color-black-rgb: 0 0 0,
+);
+
+$color-red: var(--color-red);
+$color-black: var(--color-black);
+$color-dark-black: var(--color-dark-black);
+$color-dark-black-2: var(--color-dark-black-2);
+$color-white: var(--color-white);
+$color-off-white: var(--color-off-white);
+$color-gray: var(--color-gray);
+$color-black-rgb: var(--color-black-rgb);
+
+// Breakpoints.
+$breakpoints: (
+	xs: 425px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px,
+	c1600: 1600px,
+);

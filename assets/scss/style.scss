@@ -1,0 +1,62 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Project Name - Project Short Description
+    Template URI: https://example.net
+    Author: Humayun Ahmed
+    Author URI:  https://example.net
+    Version: 1.0
+
+    Note: This is Main Style CSS File.
+-----------------------------------------------------------------------------------
+	CSS INDEX
+	===================
+    #. Fonts
+    #. Common
+    #. Input field
+    #. Keyframes & Animation
+    #. Header
+        ##. Header
+    #. Components
+        ##. Hero Area
+        ##. Icon Box
+        ##. Testimonials
+        ##. Call To Action
+        ##. Info Box
+        ##. Specific Section
+        ##. Blog
+            ###. Blog Standard
+            ###. Blog Details
+            ###. Blog Pagination
+            ###. Blog Comments
+            ###. Blog Sidebar
+        ##. Shop
+            ###. Product
+            ###. Product Category
+            ###. Product Filter
+            ###. Product Sidebar
+        ##. Footer
+        ##. 404
+        ##. Coming Soon
+-----------------------------------------------------------------------------------*/
+@import "abstracts/mixin";
+@import "abstracts/variables";
+@import "base/fonts";
+@import "base/common";
+@import "base/input-field";
+@import "base/keyframes-animation";
+@import "header/header";
+@import "components/hero-area";
+@import "components/icon-box";
+@import "components/testimonials";
+@import "components/cta";
+@import "components/info-box";
+@import "sections/sections";
+@import "blog/blog-standard";
+@import "blog/blog-details";
+@import "blog/pagination";
+@import "blog/blog-comments";
+@import "blog/sidebar";
+@import "shop/product";
+@import "shop/product-category";
+@import "shop/product-filter";
+@import "shop/sidebar";
+@import "footer/footer";
