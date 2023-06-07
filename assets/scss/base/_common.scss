@@ -10,8 +10,8 @@
 }
 
 body {
-    background-color: $color-dark-black;
-    color: $color-white;
+    background-color:$color-white;
+    color: $color-black;
     font-family: $font-montserrat;
     font-weight: normal;
     font-size: 16px;
@@ -38,7 +38,7 @@ h6 {
     font-family: $font-montserrat;
     font-weight: 700;
     line-height: 1.5;
-    color: $color-white;
+    color: $color-black;
     margin: 0px;
     a {
         color: $color-white;
@@ -69,6 +69,9 @@ a {
 a,
 span {
     display: inline-block;
+}
+.container{
+    max-width: 1804px;
 }
 
 /*======= Common Classes =======*/
