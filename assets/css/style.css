@@ -618,8 +618,46 @@ textarea {
   transition: color 0.3s ease;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
 /*======= Hero Area =======*/ /*======= Icon Box =======*/ /*======= Testimonial =======*/ /*======= Call To Action =======*/ /*======= Info box =======*/ /*======= Specific Section =======*/ /*======= Blog Standard =======*/ /*======= Blog Details =======*/ /*======= Blog Pagination =======*/ /*======= Blog Comments =======*/ /*======= Blog Sidebar =======*/ /*======= Product =======*/ /*======= Product Category =======*/ /*======= Product Filter =======*/ /*======= Product Sidebar =======*/ /*======= Footer =======*/
+.footer-area {
+  padding-bottom: 25px;
+}
 .footer-area .footer-content {
   border-top: 1px solid #ddd;
   padding-top: 15px;
+}
+.footer-area .footer-content .footer-left a {
+  color: #000;
+  font-size: 20px;
+  padding: 0 12px;
+}
+.footer-area .footer-content .footer-right .fotlist {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.hero-area .hero-title {
+  margin-bottom: 100px;
+}
+.hero-area .hero-title h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.hero-area .hero-title p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.hero-area .feature-hero {
+  margin-bottom: 100px;
+}
+.hero-area .feature-hero img {
+  border-radius: 15%;
 }/*# sourceMappingURL=style.css.map */

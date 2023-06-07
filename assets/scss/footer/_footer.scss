@@ -3,10 +3,23 @@
     
 }
 .footer-area{
+    padding-bottom: 25px;
     .footer-content{
         border-top: 1px solid #ddd;
         padding-top: 15px;
-        .footer-left{}
-        .footer-right{}
+        .footer-left{
+             a {
+                color: #000;
+                font-size: 20px;
+                padding: 0 12px;
+            }
+        }
+        .footer-right{
+            .fotlist {
+                font-size: 16px;
+                padding: 5px;
+            }
+        }
     }
 }
+
