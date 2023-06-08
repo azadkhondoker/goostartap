@@ -3,6 +3,7 @@
 .hero-area{
     .hero-title {
         margin-bottom: 100px;
+        margin-top: 50px;
         h2 {
             font-size: 60px;
             font-weight: 700;
@@ -14,8 +15,38 @@
     }
     .feature-hero{
         margin-bottom: 100px;
+        &:hover{
+            h2{
+                color: #1967d2;
+            }
+        }
         img{
-            border-radius: 15%;
+            border-radius: 28px;
+            width: 681px;
+            height: 568px;
+        }
+        .image-under-caption{
+             position: relative;
+             button {
+                border: none;
+                background: none;
+                position: absolute;
+                right: 100px;
+                top:20px;
+                color: #5f6368;
+                i{
+                    font-size: 32px;
+                    font-weight: 400;
+                  
+                }
+            }
+        }
+    }
+    .hero-right{
+        margin-top: 500px;
+        img{
+            height: 251px;
+            width: 302px;
         }
     }
 }

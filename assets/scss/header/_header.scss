@@ -6,9 +6,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .logo-image {
-            width: 100px; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        transition: background-color 0.3s ease;
+        .logo-item {
+          display: flex;
+          align-items: center;
+          img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+           
           }
+      }
           .navbar-nav {
             display: flex;
             flex-direction: row;
@@ -22,12 +35,9 @@
       }
   }
 
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f2f2f2;
-  }
+
+  .navbar.scrolled {
+    background-color: #f2f2f2; 
+  } 
   
 
