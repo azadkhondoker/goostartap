@@ -644,7 +644,45 @@ textarea {
   background-color: #f2f2f2;
 }
 
-/*======= Hero Area =======*/ /*======= Icon Box =======*/ /*======= Testimonial =======*/ /*======= Call To Action =======*/ /*======= Info box =======*/ /*======= Specific Section =======*/ /*======= Blog Standard =======*/ /*======= Blog Details =======*/ /*======= Blog Pagination =======*/ /*======= Blog Comments =======*/ /*======= Blog Sidebar =======*/ /*======= Product =======*/ /*======= Product Category =======*/ /*======= Product Filter =======*/ /*======= Product Sidebar =======*/ /*======= Footer =======*/
+/*======= Hero Area =======*/ /*======= Icon Box =======*/ /*======= Testimonial =======*/ /*======= Call To Action =======*/ /*======= Info box =======*/ /*======= Specific Section =======*/ /*======= Blog Standard =======*/ /*======= Blog Details =======*/ /*======= Blog Pagination =======*/ /*======= Blog Comments =======*/
+.slider-bood.text-center {
+  padding: 100px 0;
+  background: #FFF1DE;
+  margin-bottom: 100px;
+}
+
+.video-headline h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.slider-bood.text-center img {
+  width: 815px;
+  height: 515px;
+}
+
+.slider-bood.text-center {
+  padding: 100px 0;
+  background: #FFF1DE;
+  margin-bottom: 100px;
+}
+
+.slider-bood button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 216px;
+  right: 629px;
+}
+
+.slider-bood .carousel-group {
+  position: relative;
+}
+
+/*======= Product =======*/ /*======= Product Category =======*/ /*======= Product Filter =======*/ /*======= Product Sidebar =======*/ /*======= Footer =======*/
 .footer-area {
   padding-bottom: 25px;
 }
@@ -657,7 +695,7 @@ textarea {
   font-size: 20px;
   padding: 0 12px;
 }
-.footer-area .footer-content .footer-right .fotlist {
+.footer-area .footer-content .feature-menu .fotlist {
   font-size: 16px;
   padding: 5px;
 }
@@ -674,29 +712,29 @@ textarea {
   font-size: 16px;
   font-weight: 500;
 }
-.hero-area .feature-hero {
+.hero-area .feature-image {
   margin-bottom: 100px;
 }
-.hero-area .feature-hero:hover h2 {
+.hero-area .feature-image:hover h2 {
   color: #1967d2;
 }
-.hero-area .feature-hero img {
+.hero-area .feature-image img {
   border-radius: 28px;
   width: 681px;
   height: 568px;
 }
-.hero-area .feature-hero .image-under-caption {
+.hero-area .feature-image .image-under-caption {
   position: relative;
 }
-.hero-area .feature-hero .image-under-caption button {
+.hero-area .feature-image .image-under-caption button {
   border: none;
   background: none;
   position: absolute;
-  right: 100px;
-  top: 20px;
+  right: 145px;
+  top: 0;
   color: #5f6368;
 }
-.hero-area .feature-hero .image-under-caption button i {
+.hero-area .feature-image .image-under-caption button i {
   font-size: 32px;
   font-weight: 400;
 }

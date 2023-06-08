@@ -81,3 +81,56 @@
           navbar.classList.remove('scrolled');
         }
       });
+
+ /*--------------------
+	=== slider fixed js  ===
+	----------------------*/
+            // JavaScript code for the video carousel
+
+// Get all the slideshow elements
+const slideshows = document.querySelectorAll('.slideshow');
+
+// Loop through each slideshow
+slideshows.forEach((slideshow) => {
+  const slides = slideshow.querySelectorAll('.slideshow-slide'); // Get all slides in the current slideshow
+  let currentIndex = 0; // Current index of the active slide
+
+  // Function to show the slide at the specified index
+  const showSlide = (index) => {
+    slides.forEach((slide) => {
+      slide.style.display = 'none'; // Hide all slides
+    });
+    slides[index].style.display = 'block'; // Show the slide at the specified index
+  };
+
+  // Function to show the next slide
+  const showNextSlide = () => {
+    currentIndex++;
+    if (currentIndex >= slides.length) {
+      currentIndex = 0; // Wrap around to the first slide if reached the end
+    }
+    showSlide(currentIndex);
+  };
+
+  // Function to show the previous slide
+  const showPrevSlide = () => {
+    currentIndex--;
+    if (currentIndex < 0) {
+      currentIndex = slides.length - 1; // Wrap around to the last slide if reached the beginning
+    }
+    showSlide(currentIndex);
+  };
+
+  // Show the initial slide
+  showSlide(currentIndex);
+
+  // Add event listeners to the slideshow controls
+  const slideshowControls = slideshow.querySelectorAll('.youtube-button');
+  slideshowControls.forEach((control) => {
+    control.addEventListener('click', () => {
+      const videoId = control.getAttribute('data-youtube-modal');
+      // Play the video or perform any other action
+      console.log('Playing video with ID:', videoId);
+    });
+  });
+});
