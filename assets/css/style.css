@@ -644,7 +644,33 @@ textarea {
   background-color: #f2f2f2;
 }
 
-/*======= Hero Area =======*/ /*======= Icon Box =======*/ /*======= Testimonial =======*/ /*======= Call To Action =======*/ /*======= Info box =======*/ /*======= Specific Section =======*/ /*======= Blog Standard =======*/ /*======= Blog Details =======*/ /*======= Blog Pagination =======*/ /*======= Blog Comments =======*/
+/*======= Hero Area =======*/ /*======= Icon Box =======*/ /*======= Testimonial =======*/ /*======= Call To Action =======*/ /*======= Info box =======*/ /*======= Specific Section =======*/ /*======= Blog Standard =======*/ /*======= Blog Details =======*/
+.section-title h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.section-title p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.section-title button {
+  border: 2px solid #5f6368;
+  background: none;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.section-title button:hover {
+  background-color: #5f6368;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/*======= Blog Pagination =======*/ /*======= Blog Comments =======*/
 .slider-bood.text-center {
   padding: 100px 0;
   background: #FFF1DE;
