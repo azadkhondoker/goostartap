@@ -86,4 +86,19 @@
 	=== slider fixed js  ===
 	----------------------*/
             // JavaScript code for the video carousel
+            // $('.multiple-items').slick({
+            //     infinite: true,
+            //     slidesToShow: 3,
+            //     slidesToScroll: 1
+            //   });
 
+            $(document).ready(function() {
+                $('.multiple-items').slick({
+                  infinite: true,
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  dots: false, // Enable dots navigation
+                  prevArrow: $('.prevbutton'),
+                  nextArrow: $('.nexbutton')
+                });
+              });
