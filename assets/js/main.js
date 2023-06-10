@@ -85,13 +85,7 @@
  /*--------------------
 	=== slider fixed js  ===
 	----------------------*/
-            // JavaScript code for the video carousel
-            // $('.multiple-items').slick({
-            //     infinite: true,
-            //     slidesToShow: 3,
-            //     slidesToScroll: 1
-            //   });
-
+         
             $(document).ready(function() {
                 $('.multiple-items').slick({
                   infinite: true,
@@ -102,3 +96,45 @@
                   nextArrow: $('.nexbutton')
                 });
               });
+
+              /*--------------------
+	=== read on fixed js  ===
+	----------------------*/
+    $(document).ready(function() {
+        // Set the number of visible rows
+        var visibleRows = 1;
+    
+        // Hide the excess rows initially
+        $('.category-row .row:gt(' + (visibleRows - 1) + ')').hide();
+    
+        // Show more rows on click
+        $('.see-more').click(function() {
+          visibleRows++;
+          $('.category-row .row:lt(' + visibleRows + ')').show();
+    
+          // If all rows are shown, hide the "See more" button
+          if ($('.category-row .row').length <= visibleRows) {
+            $('.see-more').hide();
+          }
+    
+          // Show the "See less" button
+          $('.see-less').show();
+        });
+    
+        // Hide rows on "See less" click
+        $('.see-less').click(function() {
+          visibleRows--;
+          $('.category-row .row:gt(' + (visibleRows - 1) + ')').hide();
+    
+          // If only one row is shown, hide the "See less" button
+          if (visibleRows <= 1) {
+            $('.see-less').hide();
+          }
+    
+          // Show the "See more" button
+          $('.see-more').show();
+        });
+    
+        // Initially hide the "See less" button
+        $('.see-less').hide();
+      });
