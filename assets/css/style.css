@@ -702,6 +702,22 @@ textarea {
   margin-top: 40px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+}
+
 /*======= Blog Pagination =======*/ /*======= Blog Comments =======*/ /*====end media-content====*/
 .slider-bord {
   padding: 100px 0;
@@ -830,9 +846,6 @@ textarea {
 .area-media .feature-image .image-under-caption button i {
   font-size: 32px;
   font-weight: 400;
-}
-.area-media .media-right {
-  margin-top: 500px;
 }
 .area-media .media-right img {
   height: 251px;
