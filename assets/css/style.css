@@ -645,7 +645,7 @@ textarea {
   background-color: #f2f2f2;
 }
 
-/*======= Hero Area =======*/ /*======= Icon Box =======*/ /*======= Testimonial =======*/ /*======= Call To Action =======*/ /*======= Info box =======*/ /*======= Specific Section =======*/ /*======= Blog Standard =======*/ /*======= Blog Details =======*/
+/*======= Icon Box =======*/ /*======= Testimonial =======*/ /*======= Call To Action =======*/ /*======= Info box =======*/ /*======= Specific Section =======*/ /*======= Blog Standard =======*/ /*======= Blog Details =======*/
 .section-title h2 {
   font-size: 42px;
   font-weight: 700;
@@ -669,6 +669,29 @@ textarea {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: #fff;
+}
+
+.cetegory-section {
+  margin-bottom: 100px;
+}
+.cetegory-section .section-title {
+  margin-bottom: 50px;
+  margin-bottom: 80px;
+}
+.cetegory-section .cetegory-item img {
+  border-radius: 25px;
+}
+.cetegory-section .cetegory-item .items-bottom-title {
+  padding: 10px;
+  margin-top: 10px;
+}
+.cetegory-section .cetegory-item .items-bottom-title p {
+  font-size: 18px;
+}
+.cetegory-section .cetegory-item .items-bottom-title h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 8px;
 }
 
 /*======= Blog Pagination =======*/ /*======= Blog Comments =======*/ /*====end media-content====*/

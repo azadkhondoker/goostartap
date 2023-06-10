@@ -25,3 +25,29 @@
         }
     }
 }
+
+
+.cetegory-section {
+    margin-bottom: 100px;
+    .section-title{
+        margin-bottom: 50px;
+        margin-bottom: 80px;
+    }
+    .cetegory-item{
+        img{
+            border-radius: 25px;
+        }
+        .items-bottom-title{
+            padding: 10px;
+            margin-top: 10px;
+            p{
+                font-size: 18px;
+            }
+            h3{
+                font-size: 24px;
+                font-weight: 600;
+            margin-top: 8px;
+            }
+        }
+    }
+}
