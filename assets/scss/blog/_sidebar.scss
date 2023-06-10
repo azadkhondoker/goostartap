@@ -1,4 +1,6 @@
-.slider-bood.text-center {
+/*====end media-content====*/ 
+
+.slider-bord{
     padding: 100px 0;
     background: #FFF1DE;
     margin-bottom: 100px;
@@ -10,20 +12,20 @@
     margin-bottom: 50px;
 }
 
-.slider-bood.text-center img {
+.slider-bord.text-center img {
     width: 815px;
     height: 515px;
 }
 
 
-.slider-bood.text-center {
+.slider-bord.text-center {
     padding: 100px 0;
     background: #FFF1DE;
     margin-bottom: 100px;
 }
 
 
-.slider-bood button {
+.slider-bord button {
     width: 60px;
     height: 60px;
     border: none;
@@ -33,45 +35,52 @@
     right: 629px;
 }
 
-.slider-bood .carousel-group {
+.slider-bord .carousel-group {
     position: relative;
 }
 
 
-.photo-submit-slider {
-    position: relative;
-  }
+/*====photo-submit-section====*/ 
 
-  .slide-item{
-    padding: 20px;
-    img {
-        width: 100%;
-      }
-  }
+.photo-submit-section{
+    .photo-submit-slider {
+        position: relative;
+    }
+        .slide-item{
+            padding: 20px;
+            img {
+                width: 100%;
+              }
+              p {
+                font-size: 25px;
+            }
+        }
+        .prevbutton,
+        .nexbutton {
+          position: absolute;
+          top: 200px;
+          transform: translateY(-50%);
+          background: none;
+          border: none;
+          font-size: 24px;
+          color: #000;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background: #ddd;
+        }
+        .prevbutton {
+            left: -80px;
+          }
+        
+          .nexbutton {
+            right: -80px;
+          }
+        }
+      
 
-  .prevbutton,
-  .nexbutton {
-    position: absolute;
-    top: 200px;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: #000;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #ddd;
-  }
 
-  .prevbutton {
-    left: -80px;
-  }
 
-  .nexbutton {
-    right: -80px;
-  }
+ 
+
   
-  .slide-item p {
-    font-size: 25px;
-}

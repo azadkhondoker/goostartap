@@ -671,8 +671,8 @@ textarea {
   color: #fff;
 }
 
-/*======= Blog Pagination =======*/ /*======= Blog Comments =======*/
-.slider-bood.text-center {
+/*======= Blog Pagination =======*/ /*======= Blog Comments =======*/ /*====end media-content====*/
+.slider-bord {
   padding: 100px 0;
   background: #FFF1DE;
   margin-bottom: 100px;
@@ -684,18 +684,18 @@ textarea {
   margin-bottom: 50px;
 }
 
-.slider-bood.text-center img {
+.slider-bord.text-center img {
   width: 815px;
   height: 515px;
 }
 
-.slider-bood.text-center {
+.slider-bord.text-center {
   padding: 100px 0;
   background: #FFF1DE;
   margin-bottom: 100px;
 }
 
-.slider-bood button {
+.slider-bord button {
   width: 60px;
   height: 60px;
   border: none;
@@ -705,23 +705,25 @@ textarea {
   right: 629px;
 }
 
-.slider-bood .carousel-group {
+.slider-bord .carousel-group {
   position: relative;
 }
 
-.photo-submit-slider {
+/*====photo-submit-section====*/
+.photo-submit-section .photo-submit-slider {
   position: relative;
 }
-
-.slide-item {
+.photo-submit-section .slide-item {
   padding: 20px;
 }
-.slide-item img {
+.photo-submit-section .slide-item img {
   width: 100%;
 }
-
-.prevbutton,
-.nexbutton {
+.photo-submit-section .slide-item p {
+  font-size: 25px;
+}
+.photo-submit-section .prevbutton,
+.photo-submit-section .nexbutton {
   position: absolute;
   top: 200px;
   -webkit-transform: translateY(-50%);
@@ -735,17 +737,11 @@ textarea {
   border-radius: 50%;
   background: #ddd;
 }
-
-.prevbutton {
+.photo-submit-section .prevbutton {
   left: -80px;
 }
-
-.nexbutton {
+.photo-submit-section .nexbutton {
   right: -80px;
-}
-
-.slide-item p {
-  font-size: 25px;
 }
 
 /*======= Product =======*/ /*======= Product Category =======*/ /*======= Product Filter =======*/ /*======= Product Sidebar =======*/ /*======= Footer =======*/
@@ -766,33 +762,33 @@ textarea {
   padding: 5px;
 }
 
-.hero-area .hero-title {
+.area-media .hero-title {
   margin-bottom: 100px;
   margin-top: 50px;
 }
-.hero-area .hero-title h2 {
+.area-media .hero-title h2 {
   font-size: 60px;
   font-weight: 700;
 }
-.hero-area .hero-title p {
+.area-media .hero-title p {
   font-size: 16px;
   font-weight: 500;
 }
-.hero-area .feature-image {
+.area-media .feature-image {
   margin-bottom: 100px;
 }
-.hero-area .feature-image:hover h2 {
+.area-media .feature-image:hover h2 {
   color: #1967d2;
 }
-.hero-area .feature-image img {
+.area-media .feature-image img {
   border-radius: 28px;
   width: 681px;
   height: 568px;
 }
-.hero-area .feature-image .image-under-caption {
+.area-media .feature-image .image-under-caption {
   position: relative;
 }
-.hero-area .feature-image .image-under-caption button {
+.area-media .feature-image .image-under-caption button {
   border: none;
   background: none;
   position: absolute;
@@ -800,14 +796,14 @@ textarea {
   top: 0;
   color: #5f6368;
 }
-.hero-area .feature-image .image-under-caption button i {
+.area-media .feature-image .image-under-caption button i {
   font-size: 32px;
   font-weight: 400;
 }
-.hero-area .hero-right {
+.area-media .media-right {
   margin-top: 500px;
 }
-.hero-area .hero-right img {
+.area-media .media-right img {
   height: 251px;
   width: 302px;
 }/*# sourceMappingURL=style.css.map */
