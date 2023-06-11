@@ -138,3 +138,12 @@
         // Initially hide the "See less" button
         $('.see-less').hide();
       });
+
+
+
+      /* dropdown js */
+      
+      function toggleDropdown() {
+        var dropdownMenuOne = document.getElementById("dropdown-menu-one");
+        dropdownMenuOne.classList.toggle("show");
+    }

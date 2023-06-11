@@ -1,43 +1,60 @@
-/*====end media-content====*/ 
+/*====start media-content====*/ 
 
 .slider-bord{
     padding: 100px 0;
     background: #FFF1DE;
     margin-bottom: 100px;
+    .video-carousel{
+        .video-headline{
+            h2{
+                font-size: 42px;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+        }
+        .carousel-group{
+            .slideshow{
+                .slideshow-slide{
+                    position: relative;
+                    .asset-container{
+                        img{
+                            width: 815px;
+                            height: 515px;
+                        }
+                        button{
+                            width: 60px;
+                            height: 60px;
+                            border: none;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: 216px;
+                            right: 629px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
-.video-headline h2 {
-    font-size: 42px;
-    font-weight: 700;
-    margin-bottom: 50px;
-}
 
-.slider-bord.text-center img {
-    width: 815px;
-    height: 515px;
-}
+  .slideshow {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slideshow-slide {
+    flex: 0 0 calc(100% - 20px);
+    margin-right: 20px;
 
+  }
+  
+  .slideshow-slide:last-child {
+    margin-right: 0;
+  }
 
-.slider-bord.text-center {
-    padding: 100px 0;
-    background: #FFF1DE;
-    margin-bottom: 100px;
-}
+/*====end media-content====*/ 
 
-
-.slider-bord button {
-    width: 60px;
-    height: 60px;
-    border: none;
-    border-radius: 50%;
-    position: absolute;
-    top: 216px;
-    right: 629px;
-}
-
-.slider-bord .carousel-group {
-    position: relative;
-}
 
 
 /*====photo-submit-section====*/ 
