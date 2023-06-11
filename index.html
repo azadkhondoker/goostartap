@@ -182,7 +182,7 @@
           <!--====== end -vidio-slider-area ======-->
  
         <!--====== start media-content  ======-->
-        <div class="area-media">
+        <!-- <div class="area-media">
           <div class="container">
             <div class="row">
               <div class="col-lg-4">
@@ -253,6 +253,80 @@
               </div>
             </div>
           </div>
+        </div> -->
+
+
+        <div class="area-media text-end">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 align-self-end">
+                <div class="media-right">
+                  <div class="feature-image">
+                    <img src="assets/img/blog-media-right(1).webp" alt="">
+                    <div class="image-under-caption m-t-20 text-center">
+                      <div class="col-lg-8">
+                        <p>All Things Pixel</p>
+                        <h2>All Things PixelHow Pixel designers make the call.</h2>
+                      </div>
+                      <div class="col-lg-4">
+                        <button><i class="fas fa-arrow-right"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feature-image">
+                    <img src="assets/img/blog-media-right(2).webp" alt="">
+                    <div class="image-under-caption m-t-20">
+                      <div class="col-lg-8">
+                        <p>All Things Pixel</p>
+                        <h2>With Google Pixel Fold, the sky’s the limit.</h2>
+                      </div>
+                      <div class="col-lg-4">
+                        <button><i class="fas fa-arrow-right"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feature-image">
+                    <img src="assets/img/blog-media-right(3).webp" alt="">
+                    <div class="image-under-caption m-t-20">
+                      <div class="col-lg-8">
+                        <p>All Things Pixel</p>
+                        <h2>With Google Pixel Fold, the sky’s the limit.</h2>
+                      </div>
+                      <div class="col-lg-4">
+                        <button><i class="fas fa-arrow-right"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 align-self-end">
+                <div class="feature-image">
+                  <img src="assets/img/blog-hero-img.webp" alt="">
+                  <div class="image-under-caption m-t-20">
+                    <div class="col-lg-9">
+                      <p>All Things Pixel</p>
+                      <h2>All Things PixelHow Pixel designers make the call.</h2>
+                    </div>
+                    <div class="col-lg-3">
+                      <button><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="feature-image">
+                  <img src="assets/img/blog-hero-img(2).webp" alt="">
+                  <div class="image-under-caption m-t-20">
+                    <div class="col-lg-9">
+                      <p>All Things Pixel</p>
+                      <h2>With Google Pixel Fold, the sky’s the limit.</h2>
+                    </div>
+                    <div class="col-lg-3">
+                      <button><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!--====== end media-content  ======-->
 
@@ -264,16 +338,25 @@
             <div class="section-title text-center">
               <h2>Reed on</h2>
             </div>
-            <div class="dropdown">
-              <span>Click Me</span>
-              <div class="dropdown-content">
-                <a href="#">Item 1</a>
-                <a href="#">Item 2</a>
-                <a href="#">Item 3</a>
-                <a href="#">Item 4</a>
-                <a href="#">Item 5</a>
-              </div>
+            <div class="dropdown-items d-flex">
+              <div class="dropdown">
+                <button class="dropdown-toggle" onclick="toggleDropdown()">Toggle Dropdown</button>
+                <ul class="dropdown-menu drop-first" id="dropdown-menu-one">
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li><a href="#">Option 3</a></li>
+                </ul>
             </div>
+            <div class="dropdown">
+              <button class="dropdown-toggle" onclick="toggleDropdown()">Toggle Dropdown</button>
+              <ul class="dropdown-menu drop-second" id="dropdown-menu-two">
+                  <li><a href="#">Option 1</a></li>
+                  <li><a href="#">Option 2</a></li>
+                  <li><a href="#">Option 3</a></li>
+              </ul>
+            </div>
+            </div>
+            
             <div class="category-row m-t-30">
               <div class="row">
                 <div class="col-lg-3">
@@ -479,21 +562,12 @@
         <script src="assets/js/slick.min.js"></script>
         <script src="assets/js/main.js"></script>
         <script>
-           $(document).ready(function() {
-      $('.dropdown').click(function() {
-        // Toggle the visibility of the dropdown content
-        $(this).find('.dropdown-content').toggle();
-      });
-
-      // Hide the dropdown content when clicking outside the dropdown
-      $(document).click(function(event) {
-        var target = $(event.target);
-        if (!target.closest('.dropdown').length) {
-          $('.dropdown-content').hide();
+         function toggleDropdown() {
+            var dropdownMenuOne = document.getElementById("dropdown-menu-one");
+            dropdownMenuOne.classList.toggle("show");
+            var dropdownMenuTwo = document.getElementById("dropdown-menu-two"); 
+            dropdownMenuTwo.classList.toggle("show");
         }
-      });
-    });
-
         </script>
     </body>
 </html>
