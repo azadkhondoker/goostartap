@@ -41,13 +41,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;700&display=swap");
 /*======= Common =======*/
 :root {
-  --color-red: #DA0037;
+  --color-bodyOne: #3C4043;
+  --color-primary: #1967D2;
   --color-black: #000;
-  --color-dark-black: #03031C;
-  --color-dark-black-2: #040528;
   --color-white: #fff;
-  --color-off-white: #F2F4F6;
-  --color-gray: #C0C0C0;
   --color-black-rgb: 0 0 0;
   --font-poppins: 'Poppins', sans-serif;
   --font-montserrat: 'Montserrat', sans-serif;
@@ -589,60 +586,30 @@ textarea {
 
 /*======= Header  =======*/
 .header-area {
-  padding: 20px 0;
+  padding: 20px 0px;
 }
 .header-area .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: transparent;
-  -webkit-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
-  z-index: 100000;
+  margin-left: 24px;
+  padding: 0px;
 }
-.header-area .navbar .logo-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.header-area .navbar .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
-.header-area .navbar .logo-item img {
-  width: 24px;
-  height: 24px;
-  -o-object-fit: contain;
-     object-fit: contain;
+.header-area .navbar .container-fluid .navbar-brand img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
-.header-area .navbar .navbar-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-.header-area .navbar .navbar-nav .menu-item {
-  color: #000;
-  padding: 10px;
+.header-area .navbar .container-fluid .navbar-collapse .nav-item .nav-link {
+  color: var(--color-bodyOne);
   font-size: 14px;
-  -webkit-transition: color 0.3s ease;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  line-height: 19px;
+  margin-right: 10px;
 }
-
-.navbar.scrolled {
-  background-color: #f2f2f2;
+.header-area .navbar .container-fluid .navbar-collapse .nav-item .nav-link:not(last-of-type) {
+  margin-right: 10px;
 }
 
 /*======= Icon Box =======*/ /*======= Testimonial =======*/ /*======= Call To Action =======*/ /*======= Info box =======*/ /*======= Specific Section =======*/ /*======= Blog Standard =======*/ /*======= Blog Details =======*/
@@ -827,19 +794,25 @@ textarea {
 }
 
 .area-media .hero-title {
-  margin-bottom: 100px;
-  margin-top: 50px;
+  margin-bottom: 60px;
+  padding-top: 60px;
 }
 .area-media .hero-title h2 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 88px;
+  color: var(--color-bodyOne);
 }
 .area-media .hero-title p {
   font-size: 16px;
   font-weight: 500;
+  padding-top: 16px;
+  line-height: 24px;
 }
 .area-media .feature-image {
   margin-bottom: 100px;
+  padding-top: 60px;
 }
 .area-media .feature-image:hover h2 {
   color: #1967d2;

@@ -14,13 +14,17 @@
 @include respond-between(md, xl) {}
 
 // (max-width: 991px)
-@include respond-below(lg) {}
+@include respond-below(lg) {
+  
+}
 
 // (min-width: 768px) and (max-width: 991px)
 @include respond-between(md, lg) {}
 
 // (max-width: 767px)
-@include respond-below(md) {}
+@include respond-below(md) {
+    
+}
 
 // (max-width: 575px)
 @include respond-below(sm) {}
